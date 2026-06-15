@@ -1,6 +1,6 @@
 # Dictator Alert Data
 
-This is a full export of all the flights collected by the [Dictator Alert project](https://dictatoralert.com) from 2019 to 2026.
+This is a full export of all the flights collected by the [Dictator Alert project](https://dictatoralert.org) from 2019 to 2026.
 
 ## Schema
 
