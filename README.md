@@ -17,7 +17,7 @@ This the main file. It contains the flights made by planes linked to authoritari
 `flight_end` - A UTC timestamp for the last ping of the flight
 `flight_from_airport` - The ICAO code of the airport we detected the plane took off from. More information about the airport can be found in the airports.csv file.
 `flight_to_airport ` - The ICAO code of the airport we detected the plane landed at. More information about the airport can be found in the airports.csv file.
-`country` - The 2 digit ICAO country code for the country the plane is linked to. . More information about the country can be found in the countries.csv file.
+`country` - The 2-digit ICAO country code for the country the plane is linked to. . More information about the country can be found in the countries.csv file.
 `flight_positions_json` - A JSON list of the flight path. The array is a list of: `[latitude, longitude, altitude, timestamp, traking_angle]` (altitude is in meters).
 
 ### Planes
@@ -39,7 +39,7 @@ A list of airports we observed flights to/from.
 
 `icao` - The ICAO code of this airport.
 `iata` - The IATA number of the airport (can be blank).
-`country` - The 2 digit ICAO code of the country the airport is in.
+`country` - The 2-digit ICAO code of the country the airport is in.
 `name` - The name of the airport.
 `airport_type` - The type of airport. This field can be one of the following values:
 
@@ -58,7 +58,7 @@ A list of airports we observed flights to/from.
 
 ### Countries
 
-A list of authoritarian countries we tracked planes from.
+A list of authoritarian countries we tracked planes from. We relied upon [the Democracy Index (2019)](https://web.archive.org/web/20190327194825/https://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2016) Economist Intelligence Unit list of “authoritarian regimes”.
 
 **Schema**
 
