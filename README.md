@@ -18,7 +18,7 @@ This the main file. It contains the flights made by planes linked to authoritari
 - `flight_from_airport` - The ICAO code of the airport we detected the plane took off from. More information about the airport can be found in the airports.csv file.
 - `flight_to_airport ` - The ICAO code of the airport we detected the plane landed at. More information about the airport can be found in the airports.csv file.
 - `country` - The 2-digit ICAO country code for the country the plane is linked to. . More information about the country can be found in the countries.csv file.
-- `flight_positions_json` - A JSON list of the flight path. The array is a list of: `[latitude, longitude, altitude, timestamp, traking_angle]` (altitude is in meters).
+- `flight_positions_json` - A JSON list of the flight path. The array is a list of: `[latitude, longitude, altitude, timestamp, tracking_angle]` (altitude is in meters).
 
 ### Planes
 
